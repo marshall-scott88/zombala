@@ -1,0 +1,13 @@
+name: CIO
+on:
+  workflow_dispatch:
+ 
+jobs:
+ dodol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v2
+        name: Server build start on Port
+        run: |
+            echo las
