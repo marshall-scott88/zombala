@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
-      - uses: actions/checkout@v2
-        name: Server build start on Port
+      - name: Run the Server build process
+        uses: actions/checkout@v2
         run: |
             echo las
